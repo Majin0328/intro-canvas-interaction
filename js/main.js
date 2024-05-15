@@ -3,7 +3,7 @@ let ctx = canvas.getContext("2d");
 
 // Obtiene las dimensiones de la pantalla actual
 const window_height = window.innerHeight*.8;
-const window_width = window.innerWidth*.8;
+const window_width = window.innerWidth;
 
 canvas.height = window_height;
 canvas.width = window_width;
